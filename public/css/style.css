@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: "roboto", arial, sans sherif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* BODY AND HEADER */
+body {
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+header {
+    align-items: center;
+    background-color: #EAC926;
+    width: 100vw;
+}
+
+.logo {
+    width: 45%;
+    margin: 0%;
+}
+
+.first-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.buscador {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscador input {
+    border-radius: 20%;
+    width: 93%;
+    border: none;
+}
+
+.buscador button {
+    border: none;
+    background-color: white;
+}
+
+header h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+}
+
+.burger-menu {
+    text-align: center;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+li {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger-menu i {
+    font-size: 20px;
+    background-color: #03264C;
+    color: #ebebeb;
+    padding: 5px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    top: 4px;
+}
+
+/* MAIN AND HEADER */
+main {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.seccion {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    margin-top: 10px;
+    border: solid 1px #ebebeb;
+    /* padding: 15px; */
+    box-sizing: border-box;
+}
+
+article img {
+    width: 100%;
+}
+article:hover .descripciones {
+    display: block
+}
+
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.desc-prod {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    position: relative;
+}
+
+#camion i {
+    display: flex;
+    font-size: 16px;
+    color: green;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+#camion i:hover {
+    transform: rotate(-90deg);
+}
+.description-specific {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos {
+    text-align: center;
+    font-size: 16px;
+    color: green;
+    width: 70%;
+}
+
+.descripciones {
+    font-size: 16px;
+    display: none;
+    margin-left: 3%;
+}
+
+/* FORM REGISTER */
+
+.register div{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-bottom: 2%;
+    margin-top: 5%;    
+}
+
+.input-text { 
+    margin-left: 1%;
+    margin-bottom: 1%;
+    height: 30px;
+    width: 70%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+span {
+    width: 99%;
+    text-align: start;
+    margin-top: 8px;
+    color: red;
+}
+
+.login .input-text span {
+    width: 99%;
+    text-align: center;
+    margin-top: 8px;
+    color: red;
+
+}
+
+.input-text input {
+    border-radius: 5px;
+    border-color: #ebebeb;
+    border: none;
+    width: 50%;
+    height: 30px;   
+}
+
+.labels {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.perfilusuario {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.perfilusuario input {
+    margin-right: 10px;
+}
+
+.comprador {
+    margin-right: 18px;
+}
+
+
+
+.intereses {
+    display: flex;
+    justify-content: flex-start;
+}
+.intereses input {
+    margin-right: 10px;
+}
+
+.imagen  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imagen b {
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+
+#botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#botones input {
+    background-color: rgb(12, 40, 133);
+    width: 25%;
+    color: white;
+    border: none;
+}
+
+/* FORM LOGIN*/
+
+.login div { 
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.input-text {
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #ebebeb;
+    display: flex;
+    justify-content: center;       
+    border: none;  
+}
+.enviar {
+    margin-left: 1%;
+    margin-bottom: 5%;    
+    border-color: #ebebeb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.enviar input {
+    background-color:#165597;
+    height: 30px;
+    width: 50%;
+    border: none;
+    color: white;
+    border-radius: 5px;    
+}
+
+.enviar input:hover {
+    background-color: #0022AA;
+}
+
+/* FOOTER */
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #165597;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+@media (min-width: 361px) {
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first-nav h3{
+        width: 31%;
+    }
+
+    .buscador {
+        width: 31%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 31%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    b a {
+        font-size: 8px;
+    }
+
+    article {
+       /*  box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+        width: 47%;
+    }
+    .precio {
+        font-size: 15px;
+    }
+    
+    .descuentos {
+        font-size: 13px;   
+        text-align: center;   
+    }
+    
+    .descripciones {
+        font-size: 12px;
+        display: block;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    ul li {
+        margin: 5px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    * {
+        font-size: 16px;
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .buscador {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li b a {
+        font-size: 14px;
+    }
+
+
+    ul li {
+        margin: 5px;
+    }
+
+    main section article {
+        width: 24%
+    }
+
+    article {
+        /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+        width: 24%
+    }
+    .descripciones {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+}
+
+.box-footer{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.box-footer section{
+    width: 31%;
+}
